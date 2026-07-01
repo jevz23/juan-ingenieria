@@ -1,0 +1,15 @@
+---
+import { profile } from "../data/content";
+const año = new Date().getFullYear();
+---
+
+<footer class="bg-ink-950 text-ink-400 border-t border-ink-800 py-10">
+  <div class="max-w-7xl mx-auto px-6 lg:px-12 flex flex-col md:flex-row items-center justify-between gap-4">
+    <p class="font-mono text-xs tracking-wider">
+      © {año} {profile.nombre}. Todos los derechos reservados.
+    </p>
+    <p class="font-mono text-xs tracking-wider">
+      Diseñado y construido con Astro.
+    </p>
+  </div>
+</footer>

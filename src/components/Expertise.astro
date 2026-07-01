@@ -1,0 +1,60 @@
+---
+import { normativas, herramientas } from "../data/content";
+---
+
+<section class="bg-ink-900 text-ink-50 py-24 lg:py-32 relative overflow-hidden">
+  <!-- Decoración: grilla técnica oscura -->
+  <div class="absolute inset-0 opacity-[0.04]"
+    style="background-image: linear-gradient(to right, #FAFAF7 1px, transparent 1px), linear-gradient(to bottom, #FAFAF7 1px, transparent 1px); background-size: 48px 48px;">
+  </div>
+
+  <div class="max-w-7xl mx-auto px-6 lg:px-12 relative">
+    <div class="grid lg:grid-cols-12 gap-12 lg:gap-16">
+      <!-- Columna izquierda: intro -->
+      <div class="lg:col-span-5">
+        <p class="eyebrow mb-6" style="color: var(--color-accent-400);">§ 02 / Marco técnico</p>
+        <h2 class="font-display text-4xl lg:text-5xl tracking-tight mb-8 leading-[1.1]">
+          Normativas aplicadas y herramientas de trabajo.
+        </h2>
+        <p class="text-ink-300 leading-relaxed max-w-md">
+          Cada entrega documenta los códigos, supuestos y herramientas utilizadas.
+          Trabajo bajo los estándares internacionales que la industria minera e industrial reconoce.
+        </p>
+      </div>
+
+      <!-- Columna derecha: normativas + herramientas -->
+      <div class="lg:col-span-7 space-y-12">
+        <div>
+          <p class="font-mono text-xs text-ink-400 mb-6 uppercase tracking-wider">
+            // Códigos y normas
+          </p>
+          <div class="grid sm:grid-cols-2 gap-x-8">
+            {
+              normativas.map((n) => (
+                <div class="border-b border-ink-700 py-3 flex items-baseline justify-between">
+                  <span class="font-mono text-sm text-ink-50">{n.codigo}</span>
+                  <span class="text-xs text-ink-400 font-light">{n.detalle}</span>
+                </div>
+              ))
+            }
+          </div>
+        </div>
+
+        <div>
+          <p class="font-mono text-xs text-ink-400 mb-6 uppercase tracking-wider">
+            // Software
+          </p>
+          <div class="flex flex-wrap gap-2">
+            {
+              herramientas.map((h) => (
+                <span class="font-mono text-xs px-3 py-2 border border-ink-700 text-ink-200 hover:border-accent-500 hover:text-accent-400 transition-colors">
+                  {h}
+                </span>
+              ))
+            }
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

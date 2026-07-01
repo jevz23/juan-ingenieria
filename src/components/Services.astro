@@ -1,0 +1,40 @@
+---
+import { servicios } from "../data/content";
+---
+
+<section id="servicios" class="bg-ink-50 py-24 lg:py-32">
+  <div class="max-w-7xl mx-auto px-6 lg:px-12">
+    <!-- Section header -->
+    <div class="mb-16 lg:mb-20 max-w-3xl">
+      <p class="eyebrow mb-6">§ 01 / Servicios</p>
+      <h2 class="font-display text-4xl lg:text-5xl tracking-tight text-ink-900 mb-6">
+        Áreas de especialización
+      </h2>
+      <div class="section-rule mt-10"></div>
+    </div>
+
+    <!-- Grid de servicios -->
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-ink-200">
+      {
+        servicios.map((s) => (
+          <article class="service-card bg-ink-50 p-8 lg:p-10 border border-transparent">
+            <div class="flex items-baseline justify-between mb-6">
+              <span class="font-mono text-xs text-accent-600 tracking-wider">
+                {s.numero}
+              </span>
+              <span class="font-mono text-[10px] text-ink-500 tracking-wider uppercase">
+                {s.norma}
+              </span>
+            </div>
+            <h3 class="font-display text-2xl text-ink-900 mb-4 leading-tight">
+              {s.titulo}
+            </h3>
+            <p class="text-sm text-ink-600 leading-relaxed">
+              {s.descripcion}
+            </p>
+          </article>
+        ))
+      }
+    </div>
+  </div>
+</section>

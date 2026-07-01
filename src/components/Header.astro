@@ -1,0 +1,86 @@
+---
+import { profile, nav } from "../data/content";
+---
+
+<header class="sticky top-0 z-50 backdrop-blur-md bg-ink-50/85 border-b border-ink-200">
+  <div class="max-w-7xl mx-auto px-6 lg:px-12 py-5 flex items-center justify-between">
+    <!-- Wordmark -->
+    <a href="#" class="flex items-baseline gap-3 group">
+      <span class="font-mono text-accent-600 text-sm">§</span>
+      <span class="font-display text-xl tracking-tight text-ink-900">
+        {profile.nombre}
+      </span>
+      <span class="hidden sm:inline font-mono text-xs text-ink-500 border-l border-ink-300 pl-3">
+        {profile.titulo}
+      </span>
+    </a>
+
+    <!-- Desktop nav -->
+    <nav class="hidden md:flex items-center gap-8">
+      {
+        nav.map((item) => (
+          <a
+            href={item.href}
+            class="text-sm text-ink-700 hover:text-accent-600 transition-colors relative"
+          >
+            {item.texto}
+          </a>
+        ))
+      }
+      <a
+        href="#contacto"
+        class="text-sm font-medium bg-ink-900 text-ink-50 px-4 py-2 hover:bg-accent-600 transition-colors"
+      >
+        Cotizar
+      </a>
+    </nav>
+
+    <!-- Mobile menu button -->
+    <button
+      id="menu-toggle"
+      class="md:hidden p-2 text-ink-900"
+      aria-label="Abrir menú"
+    >
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5">
+        <path d="M3 6h14M3 10h14M3 14h14" />
+      </svg>
+    </button>
+  </div>
+
+  <!-- Mobile menu -->
+  <nav
+    id="mobile-menu"
+    class="hidden md:hidden border-t border-ink-200 bg-ink-50"
+  >
+    <div class="px-6 py-4 flex flex-col gap-3">
+      {
+        nav.map((item) => (
+          <a
+            href={item.href}
+            class="text-sm text-ink-700 py-2 border-b border-ink-200/60"
+          >
+            {item.texto}
+          </a>
+        ))
+      }
+      <a
+        href="#contacto"
+        class="text-sm font-medium bg-ink-900 text-ink-50 px-4 py-3 text-center mt-2"
+      >
+        Cotizar
+      </a>
+    </div>
+  </nav>
+</header>
+
+<script>
+  const btn = document.getElementById("menu-toggle");
+  const menu = document.getElementById("mobile-menu");
+  btn?.addEventListener("click", () => {
+    menu?.classList.toggle("hidden");
+  });
+  // Cerrar al hacer click en un link
+  menu?.querySelectorAll("a").forEach((a) => {
+    a.addEventListener("click", () => menu.classList.add("hidden"));
+  });
+</script>
