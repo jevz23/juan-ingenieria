@@ -1,7 +1,7 @@
 export const profile = {
-  nombre: "Juan Apellido",
+  nombre: "Juan Vera Zamorano",
   titulo: "Ingeniero Civil Mecánico",
-  iniciales: "JA",
+  iniciales: "JVZ",
   email: "contacto@tudominio.cl",
   telefono: "+56 9 0000 0000",
   ubicacion: "Santiago, Chile",
