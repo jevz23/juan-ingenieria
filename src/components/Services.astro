@@ -30,7 +30,7 @@ import { servicios } from "../data/content";
               {s.titulo}
             </h3>
             <p class="text-sm text-ink-600 leading-relaxed">
-              {s.descripcion}
+              <Fragment set:html={s.descripcion} />
             </p>
           </article>
         ))

@@ -14,7 +14,7 @@ import { hero, profile } from "../data/content";
         </h1>
 
         <p class="text-lg lg:text-xl text-ink-600 max-w-2xl leading-relaxed mb-12">
-          {hero.descripcion}
+          <Fragment set:html={hero.descripcion} />
         </p>
 
         <div class="flex flex-wrap items-center gap-4">

@@ -1,19 +1,19 @@
 export const profile = {
-  nombre: "Juan Vera Zamorano",
-  titulo: "Ingeniero Civil Mecánico",
-  iniciales: "JVZ",
+  nombre: "Diseño, Ingeniería y Gestión de Proyectos",
+  titulo: "Ingeniería Civil Mecánica / Estructural ",
+  iniciales: "JVI",
   email: "contacto@tudominio.cl",
   telefono: "+56 9 0000 0000",
   ubicacion: "Santiago, Chile",
   linkedin: "https://www.linkedin.com/in/tu-perfil",
-  tagline: "Cálculo, análisis estructural y revisión de ingeniería bajo estándares internacionales.",
+  tagline: "Cálculo, análisis estructural y revisión de ingeniería bajo estándares nacionales e internacionales.",
 };
 
 export const hero = {
   eyebrow: "Consultoría de ingeniería · Independiente",
-  titulo: "Ingeniería mecánica y estructural de precisión.",
+  titulo: "Ingeniería Mecánica y Estructural de Precisión.",
   descripcion:
-    "Servicios de cálculo, análisis y revisión para proyectos industriales y mineros. Especialización en equipos a presión, evaluación de aptitud para el servicio (FFS) y análisis estructural sísmico bajo normativas ASME, AISC y API.",
+    "Servicios de cálculo, análisis y revisión para proyectos industriales y mineros. Especialización en equipos estándar de validación normativo, tales como estanques, chimeneas, bombas, <em>piping</em>, estructuras, correas transportadoras, entre otros. Diseño de equipos/máquinas <em>custom</em>, correas transportadoras, evaluación de aptitud para el servicio (FFS) y análisis estructural de viento y sísmico bajo normativas  ASME, AISC y API.",
   ctaPrimario: { texto: "Solicitar cotización", href: "#contacto" },
   ctaSecundario: { texto: "Ver servicios", href: "#servicios" },
 };
