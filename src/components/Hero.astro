@@ -3,7 +3,7 @@ import { hero, profile } from "../data/content";
 ---
 
 <section class="relative grid-bg overflow-hidden">
-  <div class="max-w-7xl mx-auto px-6 lg:px-12 pt-12 lg:pt-20 pb-24 lg:pb-40">
+  <div class="max-w-7xl mx-auto px-6 lg:px-12 pt-12 lg:pt-12 pb-24 lg:pb-8">
     <div class="grid lg:grid-cols-12 gap-8 lg:gap-12 items-center">
       <!-- Columna izquierda: texto -->
       <div class="lg:col-span-7 fade-up">
@@ -13,7 +13,7 @@ import { hero, profile } from "../data/content";
           {hero.titulo}
         </h1>
 
-        <p class="text-base lg:text-lg text-ink-600 max-w-2xl leading-relaxed mb-12 text-justify">
+        <p class="text-base lg:text-lg text-ink-600 max-w-2xl leading-relaxed mb-14 text-justify">
           <Fragment set:html={hero.descripcion} />
         </p>
 
@@ -37,7 +37,7 @@ import { hero, profile } from "../data/content";
       </div>
 
 <!-- Columna derecha: matriz 2x2 de esquemas técnicos -->
-      <div class="lg:col-span-5 hidden lg:block fade-up" style="animation-delay: 0.3s">
+      <div class="lg:col-span-5 hidden lg:block fade-up lg:-mt-20" style="animation-delay: 0.3s">
         <div class="grid grid-cols-2 gap-2">
 
           <!-- Figura 1: TK proceso cono inox -->
@@ -254,23 +254,24 @@ import { hero, profile } from "../data/content";
               </g>
             </svg>
           </div>
-
+        
         </div>
-      </div>
+      </div>  
+    </div>
 
     <!-- Stats / credibilidad inferior -->
-    <div class="mt-20 lg:mt-32 pt-10 border-t border-ink-200 grid grid-cols-2 md:grid-cols-4 gap-8">
+    <div class="mt-20 lg:mt-12 pt-10 border-t border-ink-200 grid grid-cols-2 md:grid-cols-4 gap-8">
       <div>
         <p class="font-mono text-xs text-ink-500 mb-2">// Normativas</p>
-        <p class="font-display text-2xl text-ink-900">ASME · AISC · API</p>
+        <p class="font-display text-2xl text-ink-900">ASME · API · NCh </p>
       </div>
       <div>
-        <p class="font-mono text-xs text-ink-500 mb-2">// Herramientas</p>
-        <p class="font-display text-2xl text-ink-900">SAP2000 · MathCAD</p>
+        <p class="font-mono text-xs text-ink-500 mb-2">// Entregables</p>
+        <p class="font-display text-2xl text-ink-900">Mem-Calc · 3D · Planos · EETT · Otros</p>
       </div>
       <div>
         <p class="font-mono text-xs text-ink-500 mb-2">// Sectores</p>
-        <p class="font-display text-2xl text-ink-900">Minería · Industria</p>
+        <p class="font-display text-2xl text-ink-900">Minería · Industrial · Alimentos</p>
       </div>
       <div>
         <p class="font-mono text-xs text-ink-500 mb-2">// Ubicación</p>

@@ -13,7 +13,7 @@ export const hero = {
   eyebrow: "Consultoría de ingeniería · Independiente",
   titulo: "Ingeniería Mecánica y Estructural de Precisión.",
   descripcion:
-    "Servicios de cálculo, análisis y revisión para proyectos industriales y mineros. Especialización en equipos estándar de validación normativo, tales como estanques, chimeneas, bombas, <em>piping</em>, estructuras, correas transportadoras, entre otros, utilizando códigos internacionales, como ASME, API, ASCE, AWWA, CEMA. Diseño de equipos/máquinas <em>custom</em>, evaluación de aptitud para el servicio (FFS) de equipos a presión y en general. Análisis estructural que incluye la verificación por viento y sísmo bajo normativas nacionales, NCh 432 y NCh 2369, respectivamente.",  
+    "Servicios de cálculo, desarrollo de entregables y revisión para proyectos de ingeniería industriales y mineros. Especialización en equipos estándar de validación normativo, tales como estanques, chimeneas, bombas, <em>piping</em>, estructuras, correas transportadoras, entre otros, utilizando códigos internacionales. Diseño de equipos/máquinas <em>custom</em>, evaluación de aptitud para el servicio (FFS) de equipos a presión y en general. Análisis estructural que incluye la verificación por viento y sísmo bajo normativas nacionales e internacionales.",  
   ctaPrimario: { texto: "Solicitar cotización", href: "#contacto" },
   ctaSecundario: { texto: "Ver servicios", href: "#servicios" },
 };
