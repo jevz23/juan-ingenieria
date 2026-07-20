@@ -61,6 +61,27 @@ export const servicios = [
       "Elaboración de diseños <em>custom</em> para automatizar o resolver una etapa de un proceso productivo.",
     norma: "Diseño · Innovación · Automatización",
   },
+  {
+    numero: "07",
+    titulo: "Diseño y dimensionamiento de equipos",
+    descripcion:
+      "Diseño y cálculo de sistemas de transporte de fluidos, correas transportadoras y chimeneas bajo normativas internacionales.",
+    norma: "Bombas · Chimeneas · Correas",
+  },
+  {
+    numero: "08",
+    titulo: "Diseño y cálculo de líneas de piping",
+    descripcion:
+      "Diseño de líneas de <em>piping</em> y análisis de flexibilidad con ASME B31.3 y B31.4.",
+    norma: "Piping· B31.3 · B31.4.",
+  },
+  {
+    numero: "09",
+    titulo: "Desarrollo de entregables de ingeniería",
+    descripcion:
+      "Generación de entregables en general de proyectos de ingeniería.",
+    norma: "Planos · MC · EETT · Hoja de datos",
+  },
 ];
 
 export const normativas = [
