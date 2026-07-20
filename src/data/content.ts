@@ -21,45 +21,45 @@ export const hero = {
 export const servicios = [
   {
     numero: "01",
-    titulo: "Diseño de equipos a presión",
+    titulo: "Diseño de estanques atmosféricos y a presión",
     descripcion:
-      "Diseño y verificación de recipientes a presión, estanques y componentes según ASME BPVC Sección VIII División 1 y 2.",
-    norma: "ASME BPVC Sec. VIII",
+      "Diseño y verificación de recipientes atmosféricos y a presión, según  API 650, AWWA D103 y ASME BPVC Sección VIII División 1 y 2, según aplique",
+    norma: "API650 / AWWA D103 / ASME BPVC Sec. VIII",
   },
   {
     numero: "02",
     titulo: "Fitness-for-Service (FFS)",
     descripcion:
-      "Evaluación de aptitud para el servicio de equipos en operación con degradación: corrosión, picaduras, grietas y daños mecánicos.",
+      "Evaluación de aptitud para el servicio de equipos en operación con degradación: corrosión, <em>pitting</em>, grietas y daños mecánicos.",
     norma: "API 579 / ASME FFS-1",
   },
   {
     numero: "03",
-    titulo: "Análisis estructural y sísmico",
+    titulo: "Análisis sísmico y de viento",
     descripcion:
-      "Modelación, análisis y verificación de estructuras industriales con SAP2000 según AISC 341/360 y NCh 2369 para diseño sismorresistente.",
-    norma: "AISC 341 · NCh 2369",
+      "Modelación, análisis y verificación de estructuras y equipos industriales según NCh 2369-2025 y NCh 432-2010. ",
+    norma: "NCh 432 · NCh 2369",
   },
   {
     numero: "04",
     titulo: "Cálculo de elementos mecánicos",
     descripcion:
       "Dimensionamiento y verificación de elementos mecánicos: ejes, soportes, uniones apernadas y soldadas, según códigos aplicables.",
-    norma: "AWS · ASME",
+    norma: "AISC · FEM",
   },
   {
     numero: "05",
     titulo: "Revisión y peritaje",
     descripcion:
-      "Revisión de memorias de cálculo, planos y especificaciones técnicas. Peritaje independiente y validación de diseños de terceros.",
+      "Revisión de memorias de cálculo, planos, EETT y en general entregables de ingeniería. Peritaje independiente y validación de diseños de terceros.",
     norma: "Revisión técnica",
   },
   {
     numero: "06",
-    titulo: "Especificaciones y procura",
+    titulo: "Diseño de soluciones",
     descripcion:
-      "Elaboración de especificaciones técnicas para equipos a presión y estructurales. Apoyo en procura y evaluación técnica de ofertas.",
-    norma: "Documentación técnica",
+      "Elaboración de diseños <em>custom</em> para automatizar o resolver una etapa de un proceso productivo.",
+    norma: "Diseño · Innovación · Automatización",
   },
 ];
 
