@@ -63,62 +63,64 @@ export const servicios = [
   },
   {
     numero: "07",
-    titulo: "Diseño y dimensionamiento de equipos",
+    titulo: "Diseño y dimensionamiento de equipos de transporte",
     descripcion:
-      "Diseño y cálculo de sistemas de transporte de fluidos, correas transportadoras y chimeneas bajo normativas internacionales.",
+      "Diseño y cálculo de sistemas de transporte de fluidos, bombas, <em>piping</em>, correas transportadoras y chimeneas bajo normativas internacionales.",
     norma: "Bombas · Chimeneas · Correas",
   },
   {
     numero: "08",
-    titulo: "Diseño y cálculo de líneas de piping",
-    descripcion:
-      "Diseño de líneas de <em>piping</em> y análisis de flexibilidad con ASME B31.3 y B31.4.",
-    norma: "Piping· B31.3 · B31.4.",
-  },
-  {
-    numero: "09",
     titulo: "Desarrollo de entregables de ingeniería",
     descripcion:
       "Generación de entregables en general de proyectos de ingeniería.",
     norma: "Planos · MC · EETT · Hoja de datos",
   },
+    {
+    numero: "09",
+    titulo: "Proyectos llave en mano",
+    descripcion:
+      "Desarrollo de proyectos desde la fase de ingeniería hasta la fabricación, entregando el equipo listo para su montaje y puesta en marcha.",
+    norma: "Diseño· Fabricación",
+  },
 ];
 
 export const normativas = [
   { codigo: "ASME BPVC", detalle: "Sec. II · VIII · IX" },
-  { codigo: "ASME FFS-1", detalle: "API 579-1" },
-  { codigo: "AISC 360", detalle: "Steel Construction" },
-  { codigo: "AISC 341", detalle: "Seismic Provisions" },
-  { codigo: "API 650", detalle: "Welded Tanks" },
-  { codigo: "API 653", detalle: "Tank Inspection" },
+  { codigo: "ASME FFS-1", detalle: "Evaluación de equipos existentes" },
+  { codigo: "AISC 360", detalle: "Construcción en acero" },
+  { codigo: "ASME STS-01", detalle: "Chimeneas" },
+  { codigo: "API 650", detalle: "Estanques soldados" },
+  { codigo: "AWWA D103", detalle: "Estanques apernados de acero" },
   { codigo: "NCh 2369", detalle: "Diseño Sísmico Industrial" },
-  { codigo: "NCh 433", detalle: "Diseño Sísmico Edificios" },
-  { codigo: "AWS D1.1", detalle: "Structural Welding" },
-  { codigo: "ASCE 7", detalle: "Minimum Design Loads" },
+  { codigo: "NCh 432", detalle: "Diseño Estructural - Cargas de viento" },
+  { codigo: "ASME B31", detalle: "Tuberías a Presión" },
+  { codigo: "ASME BTH-01", detalle: "Diseño de dispositivos de izaje" },
 ];
 
 export const herramientas = [
   "SAP2000",
+  "ANSYS",
+  "CalculiX",
   "PV Elite",
   "Compress",
-  "Caesar II",
-  "AutoCAD",
+  "AutoPipe",
+  "SolidWorks",
   "Inventor",
-  "MathCAD",
+  "MecaStack",
   "Python",
 ];
 
 export const sobre = {
   titulo: "Sobre el servicio",
   parrafos: [
-    "Ingeniero Civil Mecánico con experiencia en cálculo, análisis y revisión de proyectos industriales y mineros. Trabajo enfocado en equipos a presión, estructuras industriales y evaluación de aptitud para el servicio de activos en operación.",
-    "Mi propuesta de valor es entregar memorias de cálculo trazables, defendibles ante revisión externa, y alineadas con las normativas internacionales que la industria espera. Cada entrega documenta supuestos, normas aplicadas y verificaciones, de modo que el cliente reciba ingeniería auditable.",
+    "La propuesta de valor es generar diseños y documentos trazables, defendibles ante revisión externa, y alineadas con las normativas internacionales que la industria espera. Cada entrega documenta supuestos, normas aplicadas y verificaciones, de modo que el cliente reciba ingeniería auditable.",
   ],
   credenciales: [
-    "Ingeniero Civil Mecánico — Universidad de Chile",
-    "Experiencia en proyectos minería e industria",
-    "Manejo experto de SAP2000 y herramientas de cálculo ASME",
-    "Inglés técnico — lectura de códigos y especificaciones",
+    "Ingeniero Civil Mecánico — Universidad de Santiago de Chile.",
+    "Experiencia en proyectos minería, industrial y alimenticio.",
+    "Expertiz en aplicación de normativa de diseño internacional, tales como ASME, API, etc.",
+    "Expertiz en generación de nuevos diseños para resolver o automatizar procesos repetitivos.",
+    "Inglés técnico — lectura de códigos y especificaciones.",
   ],
 };
 
