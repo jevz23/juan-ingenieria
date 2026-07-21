@@ -5,14 +5,13 @@ import { profile, nav } from "../data/content";
 <header class="sticky top-0 z-50 backdrop-blur-md bg-ink-50/85 border-b border-ink-200">
   <div class="max-w-7xl mx-auto px-6 lg:px-12 py-5 flex items-center justify-between">
     <!-- Wordmark -->
-    <a href="#" class="flex items-baseline gap-3 group">
-      <span class="font-mono text-accent-600 text-sm">§</span>
-      <span class="font-display text-xl tracking-tight text-ink-900">
-        {profile.nombre}
-      </span>
-      <span class="hidden sm:inline font-mono text-xs text-ink-500 border-l border-ink-300 pl-3">
-        {profile.titulo}
-      </span>
+    <a href="#" class="flex items-center group">
+      <svg viewBox="0 0 200 44" class="h-14 w-auto" xmlns="http://www.w3.org/2000/svg">
+        <text x="8" y="30" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="24" font-weight="600" fill="currentColor" letter-spacing="1" class="text-ink-900">JVI</text>
+        <line x1="62" y1="8" x2="62" y2="36" stroke="#C97F1A" stroke-width="1" />
+        <text x="72" y="20" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="9" fill="#14130F" letter-spacing="3" font-weight="500">SERVICIOS</text>
+        <text x="72" y="33" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="9" fill="#6E685B" letter-spacing="3" font-weight="500">TÉCNICOS</text>
+      </svg>
     </a>
 
     <!-- Desktop nav -->

@@ -10,23 +10,15 @@ import { sobre, profile } from "../data/content";
         <div class="sticky top-32">
           <p class="eyebrow mb-6">§ 03 / Sobre el servicio</p>
 
-          <!-- Avatar placeholder con iniciales (reemplazar por foto cuando quieras) -->
-          <div class="relative aspect-[4/5] bg-ink-200 mb-8 max-w-sm overflow-hidden">
+          <!-- Logo JVI expandido -->
+          <div class="relative aspect-[4/5] bg-ink-100 mb-8 max-w-sm overflow-hidden flex items-center justify-center">
             <div class="absolute inset-0 grid-bg"></div>
-            <div class="absolute inset-0 flex items-center justify-center">
-              <span class="font-display text-9xl text-ink-400/40">
-                {profile.iniciales}
-              </span>
-            </div>
-            <!-- Esquina técnica decorativa -->
-            <div class="absolute top-4 left-4 font-mono text-[10px] text-ink-500 tracking-wider">
-              [ FOTO · 4:5 ]
-            </div>
-            <div class="absolute bottom-4 right-4 font-mono text-[10px] text-accent-600 tracking-wider">
-              {profile.iniciales}
-            </div>
+            <svg viewBox="0 0 260 140" class="w-4/5 h-auto relative z-10" xmlns="http://www.w3.org/2000/svg">
+              <text x="130" y="60" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="52" font-weight="600" fill="#14130F" letter-spacing="3">JVI</text>
+              <line x1="55" y1="80" x2="205" y2="80" stroke="#C97F1A" stroke-width="1.2" />
+              <text x="130" y="105" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="13" fill="#6E685B" letter-spacing="6" font-weight="500">SERVICIOS TÉCNICOS</text>
+            </svg>
           </div>
-
           <p class="font-display text-2xl text-ink-900 leading-tight">
             {profile.nombre}
           </p>
