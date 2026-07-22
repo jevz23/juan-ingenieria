@@ -126,25 +126,93 @@ export const sobre = {
 
 export const proyectos = [
   {
+    año: "2026",
+    titulo: "Evaluación y reforzamiento de chimenea en planta metalúrgica a partir de medición de espesores con dron",
+    descripcion:
+      "Definición de estado actual de chimenea en planta metalúrgica, a través de medición de espesores con UT montado en dron. Lineamientos para evaluación y obtención de espesores equivalentes según ASME FFS-01. Validación de integridad con normativa especializada ASME STS-01, con énfasis en efectos dinámicos de viento.",
+    tipo: "Minería · Chimenea · ASME · UT · Drone · Field for Service",
+  }, 
+
+  {
+    año: "2026",
+    titulo: "Diseño planta Seleccionadora y CRF 40 m³/hr para relleno de caserones en minera subterránea",
+    descripcion:
+      "Selección de equipos de proyecto de relleno de caserones primarios con relleno cementado. Clasificación de áridos a través de cribadora y generación de CRF a través de mezclador.",
+    tipo: "Minería subterránea · CEMA · CRF · Cribado",
+  }, 
+
+  {
     año: "2025",
-    titulo: "Recalificación de estanque atmosférico",
+    titulo: "Evaluación estado de correas transportadoras y chutes para mineral y control de polvo",
     descripcion:
-      "Evaluación FFS según API 579 de estanque de almacenamiento de 2.500 m³ con corrosión localizada en envolvente, para empresa del sector minero.",
-    tipo: "Fitness-for-Service",
-  },
+      "Validación correas mediante CEMA 7th. Análisis de trayectoria del mineral para mayor vida útil de correas mediante DEM, incluyendo chutes y tolvas.",
+    tipo: "Minería · CEMA · Correas · DEM · Chutes/Tolvas",
+  }, 
+
+  {
+    año: "2025",
+    titulo: "Diseño y validación numérica de extensión plataforma anclada para trabajo de estación robótica exterior en cilindro de molinos Bola",
+    descripcion:
+      "Validación de estructura anclada considerando cargas máximas de brazo robótico.",
+    tipo: "Estructura · Minería · Brazo robótico · AISC-360",
+  }, 
+
   {
     año: "2024",
-    titulo: "Diseño estructural sismorresistente",
+    titulo: "Diseño de estructura soportante y modificación de gripper para robot de paletizado",
     descripcion:
-      "Modelación y verificación en SAP2000 de estructura soporte de proceso, diseño sísmico según NCh 2369 con factores de sobrerresistencia AISC 341.",
-    tipo: "Análisis estructural",
+      "Proyecto de automatización de paletizado de cajas, que incluye simulación del alcance del brázo robótico.",
+    tipo: "Diseño · Alimentos · Automatización · Brazo robótico · AISC-360",
+  }, 
+
+  {
+    año: "2022",
+    titulo: "Rediseño y validación numérica de herramienta para extracción de tuercas y pernos de revestimientos en molinos SAG y Bolas",
+    descripcion:
+      "Proyecto de innovación, diseño de herramienta para extracción de tuerca y arandela de molinos con acople a brazo robótico.",
+    tipo: "Innovación · Diseño · Minería · Automatización · Brazo robótico",
+  }, 
+  {
+    año: "2020",
+    titulo: "Diseño y validación numérica de herramienta para botado de pernos de revestimientos en molinos SAG y Bolas",
+    descripcion:
+      "Proyecto de innovación, diseño de herramienta para botado de pernos molino con acople a brazo robótico.",
+    tipo: "Innovación · Diseño · Minería · Automatización · Brazo robótico",
+  },  
+  {
+    año: "2018",
+    titulo: "Diseño y fabricación de estanque de almacenamiento de soda caustica",
+    descripcion:
+      "Estanque apoyado sobre el piso, de material duplex 2205, validación mediante API 650.",
+    tipo: "API 650 · Aceros especiales · NCh 2369-2003",
+  },  
+  {
+    año: "2018",
+    titulo: "Reparación de una caldera ASME empresa de combustible",
+    descripcion:
+      "Equipo con estampa ASME que requiere reparación con estampa del mismo código.",
+    tipo: "ASME VIII Div I · National Board · Estampa R",
+  },  
+  {
+    año: "2016",
+    titulo: "Diseño y validación numérica de estructuras de acero y equipamiento para flotación y deshidratación de plantas de tratamientos de riles industriales",
+    descripcion:
+      "Estructuras y equipos constitutivos de plantas de tratamiento de riles industriales.",
+    tipo: "AISC 360 · Riles · FEM",
   },
   {
-    año: "2024",
-    titulo: "Recipiente a presión vertical",
+    año: "2013",
+    titulo: "Diseño y fabricación de estanque amortiguador de golpe de ariete",
     descripcion:
-      "Diseño mecánico de recipiente a presión vertical en SA-240 TP316L para servicio corrosivo, conforme ASME BPVC Sec. VIII Div. 1.",
-    tipo: "Equipo a presión",
+      "Proyecto con estampa ASME.",
+    tipo: "ASME VIII Div I · FEM · NCh 2369-2003 · Estampa U",
+  },
+  {
+    año: "2013",
+    titulo: "Diseño y fabricación de estanques alimenticios de 10, 15 y 30 m³",
+    descripcion:
+      "Verificación sísmica utilizando espectro sobre geometría y obteniendo esfuerzos resultantes mediante FEM.",
+    tipo: "Estanque con patas · Alimentos · FEM · NCh 2369-2003",
   },
 ];
 
