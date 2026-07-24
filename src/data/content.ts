@@ -2,7 +2,7 @@ export const profile = {
   nombre: "Diseño, Ingeniería y Gestión de Proyectos",
   titulo: "Ingeniería Civil Mecánica / Estructural ",
   iniciales: "JVI",
-  email: "cotizacion@jvi.cl",
+  email: "cccotizacion@jvi.cl",
 //  telefono: "+56 9 0000 0000",
   ubicacion: "Santiago, Chile",
 //  linkedin: "https://www.linkedin.com/in/tu-perfil",
