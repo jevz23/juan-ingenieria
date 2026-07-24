@@ -2,10 +2,10 @@ export const profile = {
   nombre: "Diseño, Ingeniería y Gestión de Proyectos",
   titulo: "Ingeniería Civil Mecánica / Estructural ",
   iniciales: "JVI",
-  email: "contacto@tudominio.cl",
-  telefono: "+56 9 0000 0000",
+  email: "cotizacion@jvi.cl",
+//  telefono: "+56 9 0000 0000",
   ubicacion: "Santiago, Chile",
-  linkedin: "https://www.linkedin.com/in/tu-perfil",
+//  linkedin: "https://www.linkedin.com/in/tu-perfil",
   tagline: "Cálculo, análisis estructural y revisión de ingeniería bajo estándares nacionales e internacionales.",
 };
 
