@@ -2,7 +2,7 @@ export const profile = {
   nombre: "Diseño, Ingeniería y Gestión de Proyectos",
   titulo: "Ingeniería Civil Mecánica / Estructural ",
   iniciales: "JVI",
-  email: "cccotizacion@jvi.cl",
+  email: "cotizacion@jvi.cl",
 //  telefono: "+56 9 0000 0000",
   ubicacion: "Santiago, Chile",
 //  linkedin: "https://www.linkedin.com/in/tu-perfil",
@@ -113,12 +113,13 @@ export const herramientas = [
 export const sobre = {
   titulo: "Sobre el servicio",
   parrafos: [
-    "La propuesta de valor es generar diseños y documentos trazables, defendibles ante revisión externa, y alineadas con las normativas internacionales que la industria espera. Cada entrega documenta supuestos, normas aplicadas y verificaciones, de modo que el cliente reciba ingeniería auditable.",
+    "La propuesta de valor es generar servicios técnicos, diseños y documentos trazables, defendibles ante revisión externa, y alineadas con las normativas internacionales que la industria espera. Cada entrega documenta supuestos, normas aplicadas y verificaciones, de modo que el cliente reciba un servicio auditable.",
   ],
   credenciales: [
     "Ingeniero Civil Mecánico — Universidad de Santiago de Chile.",
-    "Experiencia en proyectos minería, industrial y alimenticio.",
+    "Experiencia en proyectos en minería, industrial y alimenticio.",
     "Expertiz en aplicación de normativa de diseño internacional, tales como ASME, API, etc.",
+    "Epertiz en fabricación de estructuras y equipos.",
     "Expertiz en generación de nuevos diseños para resolver o automatizar procesos repetitivos.",
     "Inglés técnico — lectura de códigos y especificaciones.",
   ],
@@ -219,6 +220,6 @@ export const proyectos = [
 export const nav = [
   { texto: "Servicios", href: "#servicios" },
   { texto: "Experiencia", href: "#experiencia" },
-  { texto: "Sobre mí", href: "#sobre" },
+  { texto: "Sobre JVI", href: "#sobre" },
   { texto: "Contacto", href: "#contacto" },
 ];
